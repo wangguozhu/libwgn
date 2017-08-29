@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{c7289dd5-1ac0-4b25-899b-37f6010755a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr">
+      <UniqueIdentifier>{61717b91-3890-4687-af98-b3a7ab4d402e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="libwgn.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\libwgn.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UndoTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SmallTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SavTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RectTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Ok_Tool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MidTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\FontTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Ellipsetool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CancelTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BrushTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BkTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BigTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ArrowTool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\ajpc\ajpc\res\SC_MASK.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur104.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ARROW_COLOR.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libwgn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\PngImage.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\RectColorTracker.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\ScreenShotColorPanel.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\WGEdit.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\WGGlobalTool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\WGScreenshotUI.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mgr\WGScreenshotMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\WGScreenshotTool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libwgn1\libwgn\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\WGScreenshotTool.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\PngImage.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\RectColorTracker.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\ScreenShotColorPanel.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\WGEdit.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\WGGlobalTool.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\WGScreenShotHead.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\WGScreenshotUI.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\WGScreenshotMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mgr\WGScreenshotUIHead.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libwgn.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
